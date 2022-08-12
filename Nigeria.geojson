@@ -582,17 +582,39 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"marker-color": "#7e7e7e",
-				"marker-size": "medium",
-				"marker-symbol": "",
+				"stroke": "#555555",
+				"stroke-width": 1,
+				"stroke-opacity": 0.6,
+				"fill": "#ffffff",
+				"fill-opacity": 0.1,
 				"state": "Lagos",
 				"region": "South West"
 			},
 			"geometry": {
-				"type": "Point",
+				"type": "Polygon",
 				"coordinates": [
-					3.49365234375,
-					6.446317749457659
+					[
+						[
+							7.14042902,
+							4.821804523
+						],
+						[
+							7.987501144,
+							4.821804523
+						],
+						[
+							7.987501144,
+							6.042149544
+						],
+						[
+							7.14042902,
+							6.042149544
+						],
+						[
+							7.14042902,
+							4.821804523
+						]
+					]
 				]
 			}
 		},
